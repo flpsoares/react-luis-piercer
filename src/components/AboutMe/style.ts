@@ -60,6 +60,11 @@ export const Profile = styled.div`
     align-items: center;
     border-radius: 60%;
 
+    img {
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
     h2 {
       margin-left: 20px;
       font-size: 39px;

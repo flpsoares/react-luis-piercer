@@ -22,7 +22,16 @@ export const SquareGalery = styled.div`
     height: 300px;
     object-fit: cover;
     margin: 0 40px;
+
+    border-radius: 3px;
+
+    transition: transform .2s;
+
+    &:hover {
+      transform: scale(1.5);
+    }
   }
+
 `
 
 export const WhyMeContainer = styled.div`
